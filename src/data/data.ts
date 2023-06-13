@@ -7,7 +7,7 @@ const courses = [
     category: "Marketing",
     duration: "8 semanas",
     instructor: "João Silva",
-    rating: 4.8
+    rating: 5
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const courses = [
     category: "Marketing",
     duration: "4 semanas",
     instructor: "Maria Souza",
-    rating: 4.5
+    rating: 3.5
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const courses = [
     category: "Marketing",
     duration: "6 semanas",
     instructor: "Pedro Oliveira",
-    rating: 4.9
+    rating: 4.5
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const courses = [
     category: "Marketing",
     duration: "3 semanas",
     instructor: "Ana Santos",
-    rating: 4.3
+    rating: 4
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const courses = [
     category: "Marketing",
     duration: "5 semanas",
     instructor: "Rafaela Castro",
-    rating: 4.7
+    rating: 2
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const courses = [
     category: "Marketing",
     duration: "4 semanas",
     instructor: "Gustavo Lima",
-    rating: 4.6
+    rating: 3
   }
 ];
 export default courses

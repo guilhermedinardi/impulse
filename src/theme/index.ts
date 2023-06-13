@@ -14,7 +14,7 @@ export const montserrat = Montserrat({
 const theme = createTheme({
   palette: {
     background: {
-      default: colors.common.black,
+      default: '#efefef',
       paper: colors.common.white,
     },
     primary: {
@@ -24,8 +24,8 @@ const theme = createTheme({
       main: '#FFB605',
     },
     text: {
-      primary: colors.common.white,
-      secondary: colors.common.white,
+      primary: colors.common.black,
+      secondary: '#8f96a3',
 
     }
   },

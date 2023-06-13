@@ -31,17 +31,19 @@ const Section = styled('section')(({ theme }) => ({
   root: {
     background: theme.palette.background.default,
     display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     height: '100vh',
     overflow: 'hidden',
     width: '100vw',
   },
 }));
-const Main = styled('main')(({ theme }) => ({
+const Main = styled('div')({
   display: 'flex',
-  flex: '1 1 auto',
+  justifyContent: 'center',
   overflow: 'hidden',
   paddingTop: 64,
-}));
+});
 const ContentContainer = styled('div')({
   display: 'flex',
   flex: '1 1 auto',
