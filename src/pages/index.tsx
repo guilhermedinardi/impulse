@@ -1,6 +1,6 @@
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { Layout } from '../layout/Main';
+import { Layout } from '../layout/Layout';
 
 import items from '../data/data';
 import { VideoCard } from '../components/VideoCard/VideoCard';
