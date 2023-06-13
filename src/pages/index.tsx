@@ -1,4 +1,3 @@
-import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { Layout } from '../layout/Main';
@@ -34,7 +33,7 @@ export default function Home() {
               justifyContent={'center'}
               alignItems={'center'}
             >
-              <VideoCard {...item} />
+              <VideoCard {...item} /> 
             </Grid>
           ))}
         </Grid>

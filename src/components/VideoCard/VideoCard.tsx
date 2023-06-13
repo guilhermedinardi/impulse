@@ -1,24 +1,11 @@
 import { Box, Rating, Typography } from '@mui/material';
 import StarIcon from '@mui/icons-material/Star';
-
-type VideoCardProps = {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  category: string;
-  duration: string;
-  instructor: string;
-  rating: number;
-};
+import { VideoCardProps } from '../../types/video';
 
 export const VideoCard = ({
-  id,
   title,
   description,
   image,
-  category,
-  duration,
   instructor,
   rating,
 }: VideoCardProps) => {
